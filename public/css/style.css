@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #4CAF50;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    max-width: 800px;
+}
+
+.clubes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.clube-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.clube-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.clube-card img {
+    max-width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.clube-card h3 {
+    font-size: 1em;
+    margin: 0;
+    color: #555;
+}
+
+#loading-message {
+    text-align: center;
+    width: 100%;
+    font-size: 1.2em;
+    color: #666;
+}
