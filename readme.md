@@ -39,6 +39,7 @@ Certifique-se de ter o **Node.js** instalado em seu computador.
 ```bash
 node server_local_clubes.js
 ```
+
 Após a primeira execução, o servidor se conectará à API do Cartola e criará o arquivo `clubes.json` na pasta raiz.
 
 Abra seu navegador e acesse: `http://localhost:3000`.
